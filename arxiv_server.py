@@ -73,7 +73,7 @@ def return_response(research_question):
                 "type": "function",
                 "name": "PaperListTool",
                 "description": "Returns a list of paper titles and ids given a date. The date must be in yyyy-mm-dd format",
-                "url": "http://192.222.54.121:8070/call_tool",
+                "url": "http://localhost/call_tool",
                 "method": "POST",
                 "timeout": 10,
                 "parameters": {
@@ -94,7 +94,7 @@ def return_response(research_question):
                 "type": "function",
                 "name": "AbstractTool",
                 "description": "Returns the title and abstract of a paper given an id. Use the ids returned from using the PaperListTool.",
-                "url": "http://192.222.54.121:8070/call_tool",
+                "url": "http://localhost/call_tool",
                 "method": "POST",
                 "timeout": 10,
                 "parameters": {
