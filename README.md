@@ -22,4 +22,4 @@ open-webui serve
 On your Open WebUI server, go to Admin Panel -> Settings -> Connections. Under Manage OpenAI API Connections, press Add Connection and type http://localhost:8000/v1 or your.arxiv_server.url/vl. You may optionally go to Admin Panel -> Settings -> Interface and disable all generation, which makes the generation faster. 
 
 # Using the TIM model
-You can create your own agent with internal tool use using the TIM model, similar to this one. 
+You can create your own agent with internal tool use using the [TIM](https://docs.subconscious.dev/platform/tools) model, similar to this one. 
