@@ -8,9 +8,8 @@ from typing import List, Literal
 
 
 openai_client = OpenAI(
-    # base_url = "https://api-dev.subconscious.dev/timlarge/v1",
-    base_url = "http://localhost:8081/v1",
-    api_key = "test-key"
+    base_url = "https://api.subconscious.dev/v1",
+    api_key = "test-key" # get the key from https://subconscious.dev
 )
 
 
